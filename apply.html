@@ -44,9 +44,14 @@ h1 {
 .question2 {
  border: 1px solid red;
  width: 400px;
- height: 200px;
+ height: 80px;
 }
 .question3 {
+ border: 1px solid red;
+ width: 400px;
+ height: 80px;
+}
+.question4 {
  border: 1px solid red;
  width: 400px;
  height: 80px;
@@ -91,7 +96,11 @@ h1 {
 
      <div class="question1">Discord Name (USERNAME#0000): <input type="text" name="DiscordName"><br></div>
 
-     <div class="question2">Why do you want to join?: <br><textarea name="why do you want to join?" rows="8" cols="50"></textarea><br></div>
+     <div class="question2">Have you done any prior moderation gigs?<br>
+
+              <input type="radio" name="Have you done any prior moderation gigs?" value="Yes"> Yes <br>
+
+                <input type="radio" name="Have you done any prior moderation gigs?" value="No"> No <br></div>
 <div class="question3">
           Are you above the age of 18? <br>
 
@@ -99,6 +108,7 @@ h1 {
 
             <input type="radio" name="Are you above the age of 18?" value="No"> No <br>
 </div>
+<div class="question4">How old are you?:<br> <input type="text" name="age"><br></div>
 
               <div class="recaptcha" data-netlify-recaptcha="true"></div>
 
